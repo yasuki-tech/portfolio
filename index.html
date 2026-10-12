@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | yasuki-tech</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <span class="nav-logo">yasuki-tech</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">yasuki-tech</h1>
+      <p class="hero-title">Full-Stack Developer</p>
+      <p class="hero-desc">情熱を持ってプロダクトを作るソフトウェアエンジニア</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">&#8595; Scroll</div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>ソフトウェア開発に情熱を持つエンジニアです。フロントエンドからバックエンド、インフラまで幅広く対応できます。</p>
+          <p>新しい技術を学ぶことが好きで、常によりよいコードを書くことを心がけています。</p>
+          <ul class="about-list">
+            <li>&#9733; Clean &amp; maintainable code</li>
+            <li>&#9733; Performance-first mindset</li>
+            <li>&#9733; Continuous learning</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="about-stat"><span class="stat-num">3+</span><span class="stat-label">Years Experience</span></div>
+          <div class="about-stat"><span class="stat-num">20+</span><span class="stat-label">Projects</span></div>
+          <div class="about-stat"><span class="stat-num">10+</span><span class="stat-label">Technologies</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Vue.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">Go</span>
+            <span class="tag">REST API</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Infrastructure</h3>
+          <div class="skill-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">&#128187;</span>
+            <div class="project-links">
+              <a href="https://github.com/yasuki-tech/auto-dev-sample" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+          <h3>auto-dev-sample</h3>
+          <p>自動開発サンプルプロジェクト。Claude Codeを活用した開発ワークフローの実験場。</p>
+          <div class="project-tags">
+            <span class="tag tag-sm">JavaScript</span>
+            <span class="tag tag-sm">Claude Code</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">&#127760;</span>
+            <div class="project-links">
+              <a href="https://github.com/yasuki-tech/portfolio" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+          <h3>Portfolio Site</h3>
+          <p>本サイト。GitHub MCPサーバを使って Claude Code が自動生成したポートフォリオ。</p>
+          <div class="project-tags">
+            <span class="tag tag-sm">HTML</span>
+            <span class="tag tag-sm">CSS</span>
+            <span class="tag tag-sm">MCP</span>
+          </div>
+        </div>
+        <div class="project-card project-cta">
+          <span class="project-icon">&#43;</span>
+          <p>More coming soon...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-desc">お気軽にご連絡ください。</p>
+      <div class="contact-links">
+        <a href="https://github.com/yasuki-tech" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">&#128279;</span>
+          <span>GitHub</span>
+        </a>
+        <a href="mailto:yasuki0121@gmail.com" class="contact-card">
+          <span class="contact-icon">&#9993;</span>
+          <span>Email</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 yasuki-tech. Built with GitHub MCP + Claude Code.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
